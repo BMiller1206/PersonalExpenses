@@ -42,7 +42,7 @@ public class PersonalExpenses
         System.out.println("\nPlease enter how many hours you worked");
         hoursWorked = in.nextDouble();
         
-        //Caculate personal information
+        //Calculate personal information
         grossIncome = payRate * hoursWorked;
         netIncome = grossIncome - (grossIncome * incomeTax);
         clothes = netIncome * clothes;
